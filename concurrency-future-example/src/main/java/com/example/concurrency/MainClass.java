@@ -1,4 +1,4 @@
-package com.example.concurrency.test;
+package com.example.concurrency;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
