@@ -1,4 +1,5 @@
-package com.example.jdbc.date;
+package com.example.java8.date.jdbc;
+
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -12,10 +13,9 @@ import java.sql.Timestamp;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.OffsetDateTime;
-import java.time.temporal.ChronoUnit;
 
 @Slf4j
-public class MainClass {
+public class JdbcExample {
 
     public static final String POSTGRE_URL = "jdbc:postgresql://127.0.0.1:5433/postgres";
 
